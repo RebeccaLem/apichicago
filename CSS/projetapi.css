@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #90ACDF;
+}
+ a {
+     text-decoration: none;
+ }
+
+ul {
+    list-style: none;
+    margin: 15px;
+    display: flex;
+}
+
+li {
+    margin:50px;
+    font-family: 'Anton', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    height:100vh;
+}
+
+main {
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: #E2EBFB;
+    overflow: scroll;
+}
+
+#masterpiece {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: #D5D6D6 solid 1px;
+    margin: 8px;
+}
+
+input {
+    border:solid 1px #D5D6D6;
+    padding:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#artists {
+    height: 75%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+img {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #D5D6D6;
+    padding:8px;
+    transition: transform 3s;
+}
+
+footer {
+    background-color: #90ACDF;
+    height: 6%;
+}
+
+.none {
+    display:none;
+}
+
+figure {
+    height: 300px;
+    width: 400px;
+    perspective: 1000px;
+    transition: transform 3s;
+    display: flex;
+    justify-content: center;
+}
+
+figcaption {
+    opacity: 0;
+    text-align: center;
+    transform: scale(-1, 1);
+    position: absolute;
+}
+
+figure:hover{
+    transform: rotateY(180deg);
+}
+
+figure:hover figcaption{
+    transition-delay: 2s;
+    opacity: 1;
+}
+
+figure:hover img {
+    transition-delay: 2s;
+    transition-duration: 500ms;
+    opacity: 0.5;
+}
