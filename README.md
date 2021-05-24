@@ -1,0 +1,6 @@
+Groupe constitué de Rebecca Lemos, Soufien Araissa et Jason Martel
+
+Nous avons utilisé l’API de l’institut d’art de Chicago afin de construire une page présentant les artistes de l’API et les rendre accessibles aux utilisateurs imaginaires. Nous avons imaginé qu’il puisse s’agir d’utilisateurs étudiants ou amateurs d’arts ainsi, il nous fallait un design attractif mais minimaliste avec quelques animations CSS (les cartes qui se tournent et affichent les informations). 
+Nous avons réussi à créer un algorithme comprenant un fetch, le fetch menant à classer les informations de l’API. La base de données apparaît dans les boutons sur lesquels on clique et qui nous affichent les œuvres d’art des artistes.
+Nous avons réussi à faire des « boutons » fonctionnant grâce à un algorithme JS pour afficher tous les artistes de la base de données, c’est l’une de nos fiertés. Nous aurions, cependant, aimé classer les informations encore mieux : si nous avions pu rendre cette page dynamique s’ouvrant sur un artiste et amenant à une page particulière de l’œuvre telle une galerie interactive nous aurions été encore plus fiers. 
+Pour faire le bilan de cette semaine, nous pouvons dire que nous avons appris à manipuler le fletch, à travailler en équipe, à communiquer pour mener nos tâches à bien sans discordes. Nous avons été organisés pour réaliser ce projet.   
